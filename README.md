@@ -7,13 +7,13 @@
 适用于使用 systemd 的 Linux 主机，以 root 运行。优先使用 Debian / Ubuntu；其他发行版依赖安装分支未做完整系统安装验证。
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/chendeng1989/singbox-installer/main/reality_hy2_ws.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/cedar-lantern-lab/singbox-installer/main/reality_hy2_ws.sh)
 ```
 
 更便于保留和检查的方式：
 
 ```bash
-curl -fL --retry 3 https://raw.githubusercontent.com/chendeng1989/singbox-installer/main/reality_hy2_ws.sh -o /root/reality_hy2_ws.sh
+curl -fL --retry 3 https://raw.githubusercontent.com/cedar-lantern-lab/singbox-installer/main/reality_hy2_ws.sh -o /root/reality_hy2_ws.sh
 bash -n /root/reality_hy2_ws.sh && bash /root/reality_hy2_ws.sh
 ```
 
