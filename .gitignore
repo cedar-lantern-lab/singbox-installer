@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+sbconfig_server.json
+*.pem
+*.key
+client_info.txt
